@@ -1,7 +1,7 @@
 # Bad_Bank
 Standalone React App
 
-<img src= "Bank.png" width='300'/>
+<img src= "bank.png" width='300'/>
 
 
 ## Description
