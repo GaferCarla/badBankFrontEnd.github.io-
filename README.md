@@ -6,7 +6,7 @@ Standalone React App
 
 ## Description
 This project is the start of a Banking app using React. 
-In it's current state, it can create new accounts. Once an account is created, the app has the ability to log in the user allowing the user to withdraw and despoit. This app is a single page application which uses React to maintain the state of the Bad Bank App! To demo this app press 
+In it's current state, it can create new accounts. Once an account is created, the app has the ability to log in the user allowing the user to withdraw and despoit. This app is a single page application which uses React to maintain the state of the Bad Bank App! To demo this app press <a href="http://carla-galanbankingapplication.s3-website-us-east-1.amazonaws.com/#/"></a>
 
 
 
