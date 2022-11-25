@@ -21,7 +21,7 @@ function CreateAccount(){
 function checkPass (){
   var psw = document.getElementById('password');
   if (psw.value.length < 8){
-    setStatus('Password Must Include 8 Characters');
+    setStatus('Password must include 8 digit');
     setTimeout(() => setStatus(''),5000);
     return;
   }else{
@@ -52,9 +52,9 @@ function checkPass (){
 
  function handleCreate(){
     console.log(name,email,password);
-    if (!validate(name,     'Please Enter Name'))     return;
-    if (!validate(email,    'Please Enter Valid Email'))    return;
-    if (!validate (password, 'Password Must Include 8 Characters')) return;
+    if (!validate(name,     'Please, enter name'))     return;
+    if (!validate(email,    'Please, enter valid Email'))    return;
+    if (!validate (password, 'Password must include 8 digit')) return;
     if (!checkPass(password)) return;
     ctx.users.push({name,email,password,balance:100});
     setShow(false);
